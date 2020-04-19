@@ -51,6 +51,6 @@ onload = function clock(){
 	//Display time on 'time' id.
 	time.innerHTML = hours + ':' + mins + ':' + secs + " " + APM;
 	
-	//setTimeout() function for refreshing.
-	setTimeout(clock, 500);
+	//setTimeout() function for refreshing every 1 second.
+	setTimeout(clock, 1000);
 }
